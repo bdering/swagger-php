@@ -1,0 +1,7 @@
+version: '2'
+services:
+  phpunit:
+    image: binarydata/phpunit # our PHPUnit image, created or found on Docker Hub
+    volumes:
+      - ./:/home/user/work/project/src/ # folder where project resides. Should have same path
+      - /tmp/:/tmp/ # linking /tmp/ folder because PHPStorm stores its stuff there

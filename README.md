@@ -15,6 +15,7 @@ Generate interactive [Swagger](http://swagger.io) documentation for your RESTful
 
 ## Installation (with [Composer](https://getcomposer.org))
 
+
 ```sh
 composer require zircote/swagger-php
 ```
